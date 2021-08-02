@@ -1,9 +1,11 @@
 from flask_wtf import FlaskForm
-from wtforms import Form, SelectMultipleField, SelectField, RadioField
-from wtforms import DateField, DateTimeField
+from wtforms import Form, FormField, SelectMultipleField, SelectField, RadioField
+from wtforms import DateField, DateTimeField, TextField
 from wtforms.validators import DataRequired, Length
-from wtforms import FileField, TextAreaField
+from wtforms import FileField, TextAreaField, IntegerField, FieldList
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
+from flask_sqlalchemy import SQLAlchemy
+
 
 
 class CustomForms(FlaskForm):
@@ -51,12 +53,3 @@ class ContactForm(FlaskForm):
     office_phone = FormField(TelephoneForm)
     emails = FieldList(TextField("Email"), min_entries=3)
     im_accounts = FieldList(FormField(IMForm), min_entries=2)
-
-
-class Message(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    text = db.Column(db.Text, nullable=False)
-    author = db.Column(db.String(100), nullable=False)
-    category = db.Column(db.String(100), nullable=False)
-    draft = db.Column(db.Boolean, default=False, nullable=False)
-    create_time = db.Column(db.Integer, nullable=False, unique=True)
