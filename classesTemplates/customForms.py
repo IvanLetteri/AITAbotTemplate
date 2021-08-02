@@ -4,7 +4,7 @@ from wtforms import DateField, DateTimeField, FileField, TextAreaField
 from wtforms import StringField, PasswordField, BooleanField, SubmitField
 
 
-class ExampleForm(FlaskForm):
+class CustomForms(FlaskForm):
     """An example form that contains all the supported bootstrap style form fields."""
     date = DateField(description="We'll never share your email with anyone else.")  # add help text with `description`
     datetime = DateTimeField(render_kw={'placeholder': 'this is placeholder'})  # add HTML attribute with `render_kw`
