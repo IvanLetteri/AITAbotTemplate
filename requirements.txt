@@ -5,3 +5,4 @@ Flask-WTF
 flask-ngrok
 pywedge
 pandas-profiling
+greykite
