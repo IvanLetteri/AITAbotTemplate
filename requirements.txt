@@ -3,3 +3,5 @@ Bootstrap-Flask
 Flask-SQLAlchemy
 Flask-WTF
 flask-ngrok
+pywedge
+pandas-profiling
