@@ -5,4 +5,9 @@ Flask-WTF
 flask-ngrok
 pywedge
 pandas-profiling
+folium==0.2.1
+plotly>=4.1.1
+imgaug<0.2.7
 greykite
+matplotlib-venn
+delayed
