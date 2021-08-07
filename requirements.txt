@@ -10,3 +10,4 @@ imgaug<0.2.7
 delayed
 tsfresh
 sktime
+tslearn
