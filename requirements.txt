@@ -11,3 +11,5 @@ delayed
 tsfresh
 sktime
 tslearn
+colabcode
+fastapi
