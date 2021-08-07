@@ -13,3 +13,4 @@ sktime
 tslearn
 colabcode
 fastapi
+fastdtw
