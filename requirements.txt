@@ -1,6 +1,7 @@
 Flask
 Bootstrap-Flask
 flask-bcrypt
+flask-login
 Flask-SQLAlchemy
 Flask-WTF
 flask-ngrok
