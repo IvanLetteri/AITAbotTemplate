@@ -4,11 +4,11 @@ The **DeFi tokens** are analysed using popular statistical models such as **SARI
 # Blogs 
 If you prefer an in-depth explanation for the code in this repository, I would recommend going through the followig articles where I have explained my approch in detail - 
 - [Statistical Modeling of Time Series Part 1: Data Preparation and Preprocessing](https://www.ivanletteri.it/2021/08/09/statistical-modeling-of-time-series-part-1-data-preparation-and-preprocessing/)
-- [Statistical Modeling of Time Series Part 2: Exploratory Data Analysis](https://ivanletteri.it/statistical-modeling-of-time-series-data-part-2-exploratory-data-analysis)
-- [Statistical Modeling of Time Series Part 3: Forecasting Stationary Time Series using SARIMA](https://ivanletteri.it/statistical-modeling-of-time-series-data-part-3-forecasting-stationary-time-series-using-sarima)
-- [Statistical Forecasting of Time Series Part 4: Forecasting Volatility using GARCH](https://ivanletteri.it/statistical-forecasting-of-time-series-data-part-4-forecasting-volatility-using-garch)
-- [Statistical Forecasting for Time Series Part 5: ARMA+GARCH model for Time Series Forecasting](https://ivanletteri.it/statistical-forecasting-for-time-series-data-part-5-arma-garch-model-for-time-series-forecasting)
-- [Statistical Forecasting for Time Series Part 6: Forecasting Non-Stationary Time Series using ARIMA](https://ivanletteri.it/statistical-forecasting-for-time-series-data-part-6-forecasting-non-stationary-time-series-using)
+- [Statistical Modeling of Time Series Part 2: Exploratory Data Analysis](https://ivanletteri.it/statistical-modeling-of-time-series-part-2-exploratory-data-analysis)
+- [Statistical Modeling of Time Series Part 3: Forecasting Stationary Time Series using SARIMA](https://ivanletteri.it/statistical-modeling-of-time-series-part-3-forecasting-stationary-time-series-using-sarima)
+- [Statistical Forecasting of Time Series Part 4: Forecasting Volatility using GARCH](https://ivanletteri.it/statistical-forecasting-of-time-series-part-4-forecasting-volatility-using-garch)
+- [Statistical Forecasting for Time Series Part 5: ARMA+GARCH model for Time Series Forecasting](https://ivanletteri.it/statistical-forecasting-for-time-series-part-5-arma-garch-model-for-time-series-forecasting)
+- [Statistical Forecasting for Time Series Part 6: Forecasting Non-Stationary Time Series using ARIMA](https://ivanletteri.it/statistical-forecasting-for-time-series-part-6-forecasting-non-stationary-time-series-using)
 
 # Acquiring Data and Data Preprocessing
 The **DeFi tokens** market **Prices** are scrapped from Binance with own library in python. The data is then cleaned and used to build 2 other important time series: DeFi tokens **Returns** (percent change in Prices) and **Volatility** (Magnitude of Returns). All these steps are in the `Preprocessing.ipynb` notebook.
