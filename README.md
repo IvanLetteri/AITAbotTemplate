@@ -1,4 +1,4 @@
-# Statistical_Modeling_for_Time_Series_Forecasting
+# Statistical Modeling for Time Series Forecasting
 The **DeFi tokens** are analysed using popular statistical models such as **SARIMA**, **ETS** and **GARCH**. Additionally, a powerful open source forecasting package from Facebook, called **Prophet**, is also explored and used to generate forecasts.
 
 # Blogs 
