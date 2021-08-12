@@ -11,6 +11,7 @@ plotly>=4.1.1
 imgaug<0.2.7
 delayed
 tsfresh
+darts
 sktime
 tslearn
 colabcode
